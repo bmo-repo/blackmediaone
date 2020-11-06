@@ -1,0 +1,97 @@
+	div#playlist {
+    		position: fixed;
+    		right: 0px;
+    		height: 99%;
+    		width: 200px;
+    	}
+    	
+    	div.play { 
+		display: block;
+	}
+	
+	div.menu {
+		display: none;
+		z-index: -100;
+		pointer-events: none;
+	}
+	
+	div#menu-logo {
+		background:url(../images/bmo.png) center right no-repeat;
+		background-attachment: fixed; 
+		background-color: white;
+	 	width: 300px;
+	 	height: 100%;
+	 	z-index: 99999;
+	 	position: fixed;
+	 	top: 0px;
+	 	right: 0px;
+		text-align: center;
+		border-left: 2px solid black;
+
+	    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+	       -moz-animation: fadein 2s; /* Firefox < 16 */
+		-ms-animation: fadein 2s; /* Internet Explorer */
+		 -o-animation: fadein 2s; /* Opera < 12.1 */
+		    animation: fadein 2s;
+		}
+
+	@keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Firefox < 16 */
+	@-moz-keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Safari, Chrome and Opera > 12.1 */
+	@-webkit-keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Internet Explorer */
+	@-ms-keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}
+
+	/* Opera < 12.1 */
+	@-o-keyframes fadein {
+	    from { opacity: 0; }
+	    to   { opacity: 1; }
+	}	
+
+	@keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+
+	/* Firefox < 16 */
+	@-moz-keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+
+	/* Safari, Chrome and Opera > 12.1 */
+	@-webkit-keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+
+	/* Internet Explorer */
+	@-ms-keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+
+	/* Opera < 12.1 */
+	@-o-keyframes fadeout {
+	    from { opacity: 1; }
+	    to   { opacity: 0; }
+	}
+	
+	
+	
